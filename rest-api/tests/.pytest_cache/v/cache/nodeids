@@ -1,0 +1,7 @@
+[
+  "test_simple.py::test_get_history_by_itemid", 
+  "test_simple.py::test_get_history_by_not_exits_itemid", 
+  "test_simple.py::test_get_history_by_without_itemid", 
+  "test_simple.py::test_get_metrics_by_uuid", 
+  "test_simple.py::test_datetime_to_epoch"
+]
