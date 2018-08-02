@@ -10,6 +10,6 @@ RUN pip install ZabbixAPI
 RUN pip install gunicorn
 #RUN timedatectl set-timezone Asia/Ho_Chi_Minh
 RUN mkdir /Zabbix_Restfull_Gateway
-COPY zabbix-restfull-api /Zabbix_Restfull_Gateway
+COPY rest-api /Zabbix_Restfull_Gateway
 ENTRYPOINT ["/bin/sh", "/Zabbix_Restfull_Gateway/run.sh"]
 EXPOSE 5000
